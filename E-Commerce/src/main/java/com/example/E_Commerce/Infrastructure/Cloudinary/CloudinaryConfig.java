@@ -12,11 +12,11 @@ import com.cloudinary.utils.ObjectUtils;
 @Configuration
 public class CloudinaryConfig {
 
-    private String cloudName="dit4hdghr";
+    private String cloudName="#";
 
-    private String apiKey= "118553587329966";
+    private String apiKey= "#";
 
-    private String apiSecret="UQmTp22EiIxEvl9-WI6IfapzQYQ";
+    private String apiSecret="#";
 
     @Bean
     public Cloudinary cloudinary() {
