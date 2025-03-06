@@ -31,7 +31,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping(value = "/products/")
-@CrossOrigin(value = "http://localhost:3000/")
 public class ProductController {
 
     private final IProductService productService;
